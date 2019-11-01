@@ -80,21 +80,32 @@ a:hover {
 @media screen and (max-width: 1036px) {
   section{
     flex-direction: column;
+    align-items: flex-start;
   }
 #buttons{
   text-align: center;
   margin-top: 1em;
+  margin-left: 0;
 }
 
 #descriptions{
-  max-width: 600px;
+  max-width: 400px;
+  margin-left: ;
 }
 
 #images{
-  max-width: 600px;
+  text-align: center;
+}
+#dragon{
+  max-width: 100%;
+  height: auto;
 }
 
 footer{
     box-shadow: 0 50vh 0 50vh #565E85;
+}
+h1{
+  margin-left: 1em;
+  margin-right: 1em;
 }
 }
